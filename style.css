@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Boxes</h1>
+    </header>
+    <main>
+      <section id="parent">
+        <article>
+          <p><img src="https://place-hold.it/900x600/ddd" /></p>
+        </article>
+        <article>
+          <p><img src="https://place-hold.it/400x480/ddd" /></p>
+        </article>
+        <article>
+          <p><img src="https://place-hold.it/300x375/ddd" /></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
