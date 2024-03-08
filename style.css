@@ -1,24 +1,42 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Boxes</h1>
-    </header>
-    <main>
-      <section id="parent">
-        <article>
-          <p><img src="https://place-hold.it/900x600/ddd" /></p>
-        </article>
-        <article>
-          <p><img src="https://place-hold.it/400x480/ddd" /></p>
-        </article>
-        <article>
-          <p><img src="https://place-hold.it/300x375/ddd" /></p>
-        </article>
-      </section>
-    </main>
-  </body>
-</html>
+#big-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 50%;
+/* width: 50%; */
+}
+#middle-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25%;
+  width: 25%;
+}
+.box{
+#small-img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 25%; */
+  width: 18%;
+  
+  
+
+  #article {
+    width: 800px;
+    /* height: 200px; */
+    border: black;
+  }
+
+  #parent{
+    border: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+  }
+
+}
+}
